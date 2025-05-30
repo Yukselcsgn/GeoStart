@@ -1,0 +1,26 @@
+{
+  "coordinates": [
+    39.990139,
+    32.691874
+  ],
+  "radius_km": 0.1,
+  "streetview": {
+    "min_lat": 39.98924068471588,
+    "max_lat": 39.99103731528412,
+    "min_lon": 32.69070150198875,
+    "max_lon": 32.69304649801125,
+    "center": [
+      39.990139,
+      32.691874
+    ],
+    "diagonal_km": 0.2826770446678962,
+    "area_km2": 0.06275827036050512,
+    "unique_points": 13,
+    "total_images": 468
+  },
+  "places": {
+    "total_photos_downloaded": 0,
+    "elapsed_seconds": 1.309309482574463
+  },
+  "execution_time_seconds": 50.8157844543457
+}
