@@ -5,7 +5,7 @@ from model.config import ModelConfig, TrainingConfig, Paths
 from model.model_builder import ModelBuilder
 from model.metrics import compute_haversine_distance
 from dataset.loader import get_dataloader
-from dataset.transforms import get_transform
+from dataset.transforms import default_transforms
 from training import (
     Trainer,
     get_device,
@@ -32,7 +32,7 @@ def main():
 
     # === DATA LOADERS ===
     augment = train_config.num_epochs > 20
-    transform = get_transform(train=True, augment=augment)
+    transform = default_transforms(train=True, augment=augment)
     train_loader, val_loader = get_dataloader(transform=transform, batch_size=train_config.batch_size)
     logger.info(f"[MAIN] Eğitim ve doğrulama verisi yüklendi. Batch size: {train_config.batch_size}")
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#data/data_main
 """
 Main execution script for StreetView Image Downloader
 """

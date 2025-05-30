@@ -1,3 +1,5 @@
+#model/model_main
+
 import torch
 from model.config import ModelConfig
 from model.model_builder import ModelBuilder
