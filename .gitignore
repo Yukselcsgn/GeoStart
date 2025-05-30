@@ -5,3 +5,11 @@ exam_0.py
 ss_deneme.png
 structure.txt
 download_log.log
+.gitignore
+.idea
+data/__pychache__/
+**/__pycache__/
+data/__pycache__/
+dataset/__pycache__/
+model/__pycache__/
+
